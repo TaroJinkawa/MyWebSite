@@ -1,0 +1,214 @@
+.box {
+		max-width: 1200px;
+		margin:0 auto;
+	}
+  .newuserbox {
+    width: 80%;
+margin: 0 auto;
+max-width: 500px;
+  	}
+
+
+	.list-unstyled{
+		line-height: 2;
+	}
+	.mb10{margin:0 0 10px 0;}
+
+.rounded-circle{
+
+
+}
+/* 全体的なスタイル
+-------------------------------------------------- */
+/* フッターの下の空白と明るめの本文 */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* ナビゲーションバーのカスタマイズ
+-------------------------------------------------- */
+
+/* .navbarを囲む.containerの特別なクラス。場所に配置するために使用 */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* 狭いビューポートで適切な表示のためにpaddingの周囲を反転 */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* カルーセルをカスタマイズ
+-------------------------------------------------- */
+
+/* カルーセルの基本クラス */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* 画像を配置しているので、キャプションを手助けする必要がある */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* img要素の配置のために高さを宣言 */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* マーケティング・コンテンツ
+-------------------------------------------------- */
+
+/* カルーセルの下の3列の中のテキストを整列 */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* フィーチャー
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* ブートストラップの<hr>をもっと外に出す */
+}
+
+/* マーケティングの見出しを細めにする */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* レスポンシブCSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* ナビゲーションバーが上から外れるので、角を丸くする */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* カルーセルコンテンツのサイズを上げる */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+
+img.example2 {
+width: 100%;
+height: 130px;
+}
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #c58668;
+}
+
+.square_btn:active{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+.bgbd {
+overflow: auto;
+background-attachment: fixed;
+background-size: cover;
+
+}
+.selecter {
+    width: 85% !important;
+}
+
+.blue_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(#6795fd 0%, #67ceff 100%);
+    background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #5e7fca;
+  }
+
+.blue_btn:active{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+select{
+height: 37px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>アイテム一覧</title>
+  <link rel="stylesheet" type="text/css" href="css/css3/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/css3/origin/common.css">
+</head>
+  <!-------------------------------------------->
+<body>
+  <!--header---------------------->
+  <header>
+    <div class="wrapper">
+
+
+      <div class="main">
+
+        <div align="right"　><font color="white"><h5>ユーザ名さん</h5></font></div>
+      </div>
+      <div class="side">
+        <div align="right"><a href="main.html"><u><font color="red">ログアウト</font></u></a></div>
+      </div>
+    </div>
+  </header>
+  <!--header---------------------->
+  <div style="margin-left:20px;" ><a href="select.html"><u><font color="red">戻る</font></u></a></div>
+  <!--title---------------------->
+  <div>
+    <br>
+    <h2><center>
+
+      <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">アイテム一覧</font></font>
+    </center></h2>
+  </div>
+  <!--title---------------------->
+  <div class="free-area">
+    <div align="right">
+      <a href="newitem.html"><u><font color="red">アイテム新規登録</font></u></a>
+    </div>
+  </div>
+  <!--idbox---------------------->
+  <div class="list-area">
+    <form class="form-inline">
+      <label class="col-sm-3">アイテムID</label>
+      <input type="id" class="form-control col-sm-9" placeholder="アイテムID" required="" autofocus="" >
+    </form>
+  </div>
+  <!--idbox---------------------->
+  <div class="list-area">
+    <form class="form-inline">
+      <label class="col-sm-3">アイテムカテゴリー</label>
+      <select class="selecter col-md-9" id="pref" required>
+        <option>選択...</option>
+        <option>デッキ</option>
+        <option>トラック</option>
+        <option>ウィール</option>
+        <option>ベアリング</option>
+        <option>デッキテープ</option>
+        <option>ビス</option>
+      </select>
+    </form>
+  </div>
+  <!--userbox---------------------->
+  <div class="list-area">
+    <form class="form-inline">
+      <label class="col-sm-3">アイテム名</label>
+      <input type="id" class="form-control col-sm-9" placeholder="アイテム名" required="" autofocus="" >
+    </form>
+  </div>
+  <!--yaerbox---------------------->
+  <div class="list-area">
+    <form class="form-inline">
+      <label class="col-sm-3">販売価格</label>
+      <input type="text" class="form-control col-sm-4" required="" autofocus="" >
+      <p class="col-sm-1"> 〜 </p>
+      <input type="text" class="form-control col-sm-4" required="" autofocus="" >
+    </form>
+  </div>
+  <!--searchbuttan---------------------->
+  <div class="list-area">
+    <form action="itemlist.html">
+      <p><div align="right">
+        <button type="submit" class="btn btn-primary  form-control col-sm-4" value="送信する">検索</button>
+      </div></p>
+    </form>
+  </div>
+  <!--line ---------------------->
+  <Hr Width="95%" >
+    <!--line ---------------------->
+    <div class="list-area">
+      <table class="table table-striped table-bordered table-hover　table-condensed">
+        <thead>
+          <tr>
+            <th Width="10%"><center>アイテムID</center></th>
+            <th Width="20%"><center>アイテムカテゴリ</center></th>
+            <th Width="40%"><center>アイテム名</center></th>
+            <th Width="10%"><center>販売価格</center></th>
+            <th Width="20%"></th>
+          </tr>
+        </thead>
+          <!-------------------------------------------->
+        <tbody>
+          <tr>
+            <td>id0001</td>
+            <td>デッキ</td>
+            <td>REAL LOW PRO Ⅱ</td>
+            <td>10000円</td>
+            <td><center>
+              <a href="itemdata.html"><button type="button" class="btn btn-primary btn-sm">詳細</button></a>
+              <a href="itemupdate.html"><button type="button" class="btn btn-success btn-sm">更新</button></a>
+              <a href="itemdelete.html"><button type="button" class="btn btn-danger btn-sm">削除</button></a>
+            </center></td>
+          </tr>
+          <tr>
+            <td>id0002</td>
+            <td>トラック</td>
+            <td>THUNDER HOLLOW LIGHT</td>
+            <td>12000円</td>
+            <td><center>
+              <a href="itemdata.html"><button type="button" class="btn btn-primary btn-sm">詳細</button></a>
+              <a href="itemupdate.html"><button type="button" class="btn btn-success btn-sm">更新</button></a>
+              <a href="itemdelete.html"><button type="button" class="btn btn-danger btn-sm">削除</button></a>
+            </center></td>
+          </tr>
+          <tr>
+            <td>id0003</td>
+            <td>ウィール</td>
+            <td>BONES STF</td>
+            <td>5000円</td>
+            <td><center>
+              <a href="itemdata.html"><button type="button" class="btn btn-primary btn-sm">詳細</button></a>
+              <a href="itemupdate.html"><button type="button" class="btn btn-success btn-sm">更新</button></a>
+              <a href="itemdelete.html"><button type="button" class="btn btn-danger btn-sm">削除</button></a>
+            </center></td>
+          </tr>
+        </tbody>
+          <!-------------------------------------------->
+      </table>
+    </div>
+      <!-------------------------------------------->
+  </body>
+
+  </html>

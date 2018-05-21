@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>アイテム情報更新</title>
+  <link rel="stylesheet" type="text/css" href="css/css3/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/css3/origin/common.css">
+</head>
+
+<body>
+  <!--header---------------------->
+  <header>
+    <div class="wrapper">
+      <div class="main">
+        <div align="right"　><font color="white"><h5>ユーザ名さん</h5></font></div>
+      </div>
+      <div class="side">
+        <div align="right"><a href="main.html"><u><font color="red">ログアウト</font></u></a></div>
+      </div>
+    </div>
+  </header>
+<!--header---------------------->
+  <div>
+    <br>
+    <h2><center>
+
+      <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">アイテム情報更新</font></font>
+    </center></h2>
+  </div>
+<!--title---------------------->
+  <div class="newuser-area">
+    <form class="form-inline">
+      <label class="col-sm-5">アイテムID</label>
+      <label class="col-sm-7">id00◯◯</label>
+    </form>
+  </div>
+<!--idbox---------------------->
+<div class="newuser-area">
+  <form class="form-inline">
+    <label class="col-sm-5">アイテムカテゴリー</label>
+      <select class="col-md-7" id="pref" required>
+        <option>選択...</option>
+        <option>デッキ</option>
+        <option selected>トラック</option>
+        <option>ウィール</option>
+        <option>ベアリング</option>
+        <option>デッキテープ</option>
+        <option>ビス</option>
+      </select>
+  </form>
+</div>
+<!--passbox---------------------->
+  <div class="newuser-area">
+    <form class="form-inline">
+      <label class="col-sm-5">アイテム名</label>
+      <input type="text" class="form-control col-sm-7" placeholder="アイテム名" value="◯◯◯◯" required="" autofocus="" >
+    </form>
+  </div>
+<!--pass2box---------------------->
+  <div class="newuser-area">
+    <form class="form-inline">
+      <label class="col-sm-5">アイテム説明</label>
+      <textarea rows="4" class="col-sm-7">aaaaaaaaaa</textarea>
+    </form>
+  </div>
+<!--namebox---------------------->
+  <div class="newuser-area">
+    <form class="form-inline">
+      <label class="col-sm-5">アイテム価格</label>
+      <input type="text" class="form-control col-sm-7" value="◯◯◯◯"  required="" autofocus="" >
+    </form>
+  </div>
+<!--namebox---------------------->
+<div class="newuser-area">
+  <div class="form-inline">
+    <label class="col-sm-5">アイテム画像選択</label>
+    <input type="file" name="名前" />
+  </div>
+</div>
+<br>
+<!--updatebuttan---------------------->
+<div class="newuser-area">
+<form action="itemlist.html">
+  <p><div align="right"><center>
+    <button type="submit" class="btn btn-primary  form-control col-sm-4" value="送信する">更新</button>
+  </center></div></p>
+</form>
+</div>
+<!--updatebuttan---------------------->
+  <div style="margin-left:20px;" ><a href="itemlist.html"><u><font color="red">戻る</font></u></a></div>
+<!--return---------------------->
+
+</body>
+
+</html>
