@@ -10,3 +10,7 @@ CREATE TABLE `user` (
     ->   UNIQUE KEY `id` (`id`),
     ->   UNIQUE KEY `login_id` (`login_id`)
     -> );
+
+    INSERT INTO `user` (`login_id`, `name`, `birth_date`, `password`)
+    VALUES
+    	('admin', '管理者', '1990-10-01', 'password');
